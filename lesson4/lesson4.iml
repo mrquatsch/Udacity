@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/book1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/book2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/book3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/book4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/book5" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/book6" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/book7" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/checkerboard" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dayOfTheWeek" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/fewerColors" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/fields" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/format" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/formattedOutput" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/grayscale" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/input" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mathInJava" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mystery" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/negative" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sunset" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sunsetInput" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tiles" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/turningMathToJava" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="lib4" level="project" />
+    <orderEntry type="library" name="lib2" level="project" />
+    <orderEntry type="library" name="modules2" level="project" />
+  </component>
+</module>
+

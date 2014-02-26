@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=cardNumber
+comment0.target=CreditCard(long)
+comment1.params=
+comment1.target=boolean\ isValid()
+comment1.text=\n\ Calculates\ whether\ this\ CreditCard\ has\ a\ valid\ number.\n\ @return\ true\ if\ the\ number\ is\ valid,\ false\ if\ it's\ not.\n
+numComments=2

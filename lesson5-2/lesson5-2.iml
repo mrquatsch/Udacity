@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/charlieFlag" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/compareDoubles" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/compareStrings" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/elevatorWithValidation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exactlyOneThree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plurals" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sierraFlag" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vowels" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="lib4" level="project" />
+    <orderEntry type="library" name="lib2" level="project" />
+    <orderEntry type="library" name="modules2" level="project" />
+  </component>
+</module>
+

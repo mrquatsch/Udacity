@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=row\ col
+comment0.target=int\ getColor(int,\ int)
+comment0.text=\n\ Computes\ the\ color\ of\ a\ square\ on\ a\ checkerboard.\n\ The\ top\ left\ corner\ is\ blue.\n\ @return\ 1\ for\ red\ spaces\ and\ 0\ for\ blue\n\ @param\ row\ the\ row\ of\ the\ space\ to\ paint\n\ @param\ col\ the\ column\ of\ the\ space\ to\ paint\n
+numComments=1

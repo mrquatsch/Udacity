@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/FrenchNames _04b" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MaxMin_04c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Month_04a" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hw04_01 gas_status" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hw04_07 letter grade" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hw04_11 in range" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hw04_12 comes after" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hw04_13 _string equals" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hw04_15 or" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hw04_18 powers of 2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hw04_19 sum even" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hw04_20 count even" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="lib4" level="project" />
+  </component>
+</module>
+

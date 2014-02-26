@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Problem Set 2 Draft" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cars1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cars2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cars3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cars4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cars5" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cars6" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/friends1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/friends2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/friends3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/friends4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/friends5" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/friends6" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="lib4" level="project" />
+    <orderEntry type="library" name="lib2" level="project" />
+    <orderEntry type="library" name="modules2" level="project" />
+  </component>
+</module>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/billionaire1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/billionaire2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/counting_down" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/credit_card" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dim" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/elizas_todo_list" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/fix_the_error" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/infinite" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/secret_messages" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/twitter" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/twitter_backwards" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="lib4" level="project" />
+    <orderEntry type="library" name="lib2" level="project" />
+    <orderEntry type="library" name="modules2" level="project" />
+  </component>
+</module>
+

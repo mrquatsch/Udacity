@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/average" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/average_fixed" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/average_q" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/buffon_needle_experiment" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chevalier_de_mere" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/clock_times" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/counting_matches" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/counting_matching_digits" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/darts" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/debugger" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dice" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/finding_the_first_match" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/first_match_no_long_words" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/largest1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/largest2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/largest_countries" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nested" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/position_of_first_match" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/telescope" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/throwing_a_die" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/triangle_pattern" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="lib4" level="project" />
+    <orderEntry type="library" name="lib2" level="project" />
+    <orderEntry type="library" name="modules2" level="project" />
+  </component>
+</module>
+

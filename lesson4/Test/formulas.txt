@@ -1,0 +1,9 @@
+rows = (((length - diameter) / (radius * sqRtOf3)) + 1);
+
+colsPerEvenRow = width / diameter;
+colsPerOddRow = (width - radius) / diameter;
+
+oddRows = ((total + 1) / 2) + (total % 2);
+evenRows = (total / 2) + (total % 2);
+
+TotalCircles = (oddRows * colsPerOddRow) + (evenRows * colsPerEvenRow);

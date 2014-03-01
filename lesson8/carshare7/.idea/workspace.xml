@@ -55,23 +55,6 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/Simulation.java" line="83" class="Simulation" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -81,10 +64,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Car.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Car.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Car.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="19" selection-start="1584" selection-end="1584" vertical-scroll-proportion="0.19130434" vertical-offset="790" max-vertical-offset="1395">
+            <state line="74" column="67" selection-start="1938" selection-end="1938" vertical-scroll-proportion="0.0" vertical-offset="790" max-vertical-offset="1395">
               <folding>
                 <element signature="e#1750#1758#0" expanded="true" />
               </folding>
@@ -103,13 +86,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Simulation.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Simulation.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Simulation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="68" selection-start="2187" selection-end="2187" vertical-scroll-proportion="0.0" vertical-offset="955" max-vertical-offset="1590">
+            <state line="81" column="36" selection-start="2163" selection-end="2163" vertical-scroll-proportion="0.5043478" vertical-offset="925" max-vertical-offset="1560">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2061#2069#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,8 +116,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Simulation.java" />
         <option value="$PROJECT_DIR$/Car.java" />
+        <option value="$PROJECT_DIR$/Simulation.java" />
       </list>
     </option>
   </component>
@@ -398,7 +380,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24969475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -443,21 +425,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Simulation.java">
+    <entry file="file://$PROJECT_DIR$/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="68" selection-start="2187" selection-end="2187" vertical-scroll-proportion="0.0" vertical-offset="955" max-vertical-offset="1590">
+        <state line="74" column="67" selection-start="1938" selection-end="1938" vertical-scroll-proportion="0.0" vertical-offset="790" max-vertical-offset="1395">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2061#2069#0" expanded="true" />
+            <element signature="e#1750#1758#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Car.java">
+    <entry file="file://$PROJECT_DIR$/Simulation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="19" selection-start="1584" selection-end="1584" vertical-scroll-proportion="0.19130434" vertical-offset="790" max-vertical-offset="1395">
+        <state line="81" column="36" selection-start="2163" selection-end="2163" vertical-scroll-proportion="0.5043478" vertical-offset="925" max-vertical-offset="1560">
           <folding>
-            <element signature="e#1750#1758#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

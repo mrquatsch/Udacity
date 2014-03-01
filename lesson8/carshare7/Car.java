@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class Car
 {
     private ArrayList<Person> passengers;
+    private ArrayList<Person> removed;
     private int numberOfSeats;
     private String driverName;
     private int location;
@@ -62,8 +63,9 @@ public class Car
        any passengers whose destination is that location.
     */
     // TODO: Return a list of all passengers that get dropped off
-    public void drive()
+    public ArrayList<Person> drive()
     {
+        removed = new ArrayList<Person>();
         location++;
         int i = 0;
         while (i < passengers.size())
@@ -71,6 +73,7 @@ public class Car
             Person p = passengers.get(i);
             if (p.getDestination() == location)
             {
+                removed.add(passengers.get(i));
                 passengers.remove(i);
                 // TODO: Remove print statement
                 //System.out.println(driverName
@@ -81,5 +84,6 @@ public class Car
                 i++;
             }
         }
+        return removed;
     }
 }

@@ -7,6 +7,7 @@ public class Simulation
 {
     private ArrayList<Car> cars;
     private ArrayList<Person> people;
+    private ArrayList<Person> removed;
 
     public Simulation()
     {
@@ -74,15 +75,18 @@ public class Simulation
     */
     public void driveCars()
     {
+        removed = new ArrayList<Person>();
         while (cars.size() > 0)
         {
             int i = 0;
             while (i < cars.size())
             {
                 Car c = cars.get(i);
-                c.drive();
-                // TODO: Add print statement here
-                System.out.println("Car number " + i + ", driven by " + c.getDriverName() + " is \"driving\"");
+                removed = c.drive();
+                for(Person p : removed) {
+                    // TODO: Add print statement here
+                    System.out.println(c.getDriverName() + " drops off " + p.getName());
+                }
                 if (c.hasArrived())
                 {
                     cars.remove(i);

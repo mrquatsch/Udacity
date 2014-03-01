@@ -7,7 +7,6 @@ public class Simulation
 {
     private ArrayList<Car> cars;
     private ArrayList<Person> people;
-    private ArrayList<Person> removed;
 
     public Simulation()
     {
@@ -75,7 +74,7 @@ public class Simulation
     */
     public void driveCars()
     {
-        removed = new ArrayList<Person>();
+        ArrayList<Person> removed = new ArrayList<Person>();
         while (cars.size() > 0)
         {
             int i = 0;

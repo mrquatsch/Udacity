@@ -60,6 +60,8 @@ public class Car
     /**
        Drives this car to the next location and drops off
        any passengers whose destination is that location.
+       @return Returns an array of passengers that we've
+       dropped off.
     */
     // TODO: Return a list of all passengers that get dropped off
     public ArrayList<Person> drive()

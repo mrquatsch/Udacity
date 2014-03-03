@@ -12,6 +12,7 @@
 import java.util.Scanner;
 import java.io.IOException;
 import java.io.File;
+import com.udacity.carshare.Simulation;
 
 public class CarShareApp
 {

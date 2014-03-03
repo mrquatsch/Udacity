@@ -12,7 +12,7 @@ public class PictureManipulationDemo
         Picture rotated =  PictureUtil.grayAndRotate90(pic);
         rotated.translate(2 * pic.getWidth() + 2 * SPACER, 0);
         rotated.draw();
-    }
 
+    }
 
 }

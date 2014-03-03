@@ -53,7 +53,8 @@ public class PictureUtil
         // TODO get a gray scale version
         // TODO flip it left to right
         // TODO create and return the new Picture
-
+        int [][] grayLevels = pic.getGrayLevels();
+        return new Picture(grayLevels);
     }
 
     /**

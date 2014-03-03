@@ -24,6 +24,7 @@
 /**
  * Models a window of a particular shape - namely a rectangle with a semi-circle on top
  */
+
 public class WindowShape
 {
 
@@ -62,8 +63,15 @@ public class WindowShape
     // other methods for dealing with windows ...
 
     // TODO: Write an instance method to get the area of the shape
+    public double area()
+    {
+        return semiCircle(getHeight(), getWidth());
+    }
 
     // TODO: Write a static method that takes the width and height of the rectangle
-    // as parameters and returns the area of a rectangle wiht those dimensions and with a
-    // semi-circle on top.
+    // as parameters and returns the area of a rectangle with those dimensions and with a
+    // semi-circle on top
+    static double semiCircle(double h, double w) {
+        return h * w + (Math.PI * w * w / 8);
+    }
 }

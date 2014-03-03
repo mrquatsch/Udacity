@@ -54,17 +54,18 @@ public class PictureUtil
         // TODO flip it left to right
         // TODO create and return the new Picture
         int [][] grayLevels = pic.getGrayLevels();
-        Picture temp = new Picture(grayLevels);
-        int xTemp = temp.getMaxX();
-        for(int y = 0; y <= temp.getMaxY(); y++)
+        for(int y = 0; y < pic.getHeight(); y++)
         {
-            for(int x = 0; x <= temp.getMaxX(); x++ )
+            for(int x = 0; x < pic.getWidth() / 2; x++)
             {
-                temp.setColorAt(x, y, temp.getColorAt(xTemp, y));
-                xTemp--;
+                int xPix = pic.getWidth() - 1 - x;
+                int temp = grayLevels[y][x];
+                grayLevels[y][x] = grayLevels[y][xPix];
+                grayLevels[y][xPix] = temp;
             }
         }
-        return temp;
+        Picture newPic = new Picture(grayLevels);
+        return newPic;
     }
 
     /**

@@ -35,7 +35,7 @@
  * Simulates a robot wandering randomly on an infinite plane
  *
  */
-import java.awt.Point;
+import java.awt.*;
 import java.util.Random;
 
 public class Robot
@@ -43,6 +43,8 @@ public class Robot
     // TODO: define other instance variables
     private int x;
     private int y;
+    private int xStart;
+    private int yStart;
     private Random generator;
 
     /**
@@ -53,8 +55,8 @@ public class Robot
     public Robot(int theX, int theY)
     {
         // TODO: Complete the constructor
-        x = theX;
-        y = theY;
+        x = xStart = theX;
+        y = yStart = theY;
         generator = new Random();
         generator.setSeed(12345);  //do not change this statement
     }
@@ -66,12 +68,28 @@ public class Robot
         return point;
     }
     // TODO: Supply the methods of the Robot class
-    /*public double getDistanceFromStart()
+    public double getDistanceFromStart()
     {
-        return 0.0;
+        return Math.sqrt(Math.pow((x - xStart), 2) + Math.pow((y - yStart), 2));
     }
 
     public void makeRandomMove()
     {
-    }*/
+        int direction = generator.nextInt(4);
+        if(direction == 0) {
+            y--;
+        }
+        else if(direction == 1) {
+            y++;
+        }
+        else if(direction == 2) {
+            x++;
+        }
+        else if(direction == 3) {
+            x--;
+        }
+        else {
+            System.out.println("ERROR: generated: " + direction);
+        }
+    }
 }

@@ -74,4 +74,9 @@ public class WindowShape
     static double semiCircle(double h, double w) {
         return h * w + (Math.PI * w * w / 8);
     }
+
+    static double area(double h, double w) {
+        WindowShape temp = new WindowShape(h, w);
+        return temp.area();
+    }
 }

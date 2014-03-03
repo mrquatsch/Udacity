@@ -78,7 +78,17 @@ public class PictureUtil
         // TODO get a gray scale version
         // TODO make a new array where the first row of the original becomes the last
         // column of the new array
-        return new Picture(); //just so draft will compile. You will change it in the final
+        int [][] grayLevels = pic.getGrayLevels();
+        int [][] temp = new int[grayLevels[0].length][grayLevels.length];
+        for(int y = 0; y < pic.getWidth(); y++)
+        {
+            for(int x = 0; x < pic.getHeight(); x++)
+            {
+                temp[y][pic.getHeight()-1-x] = grayLevels[x][y];
+            }
+        }
+        Picture newPic = new Picture(temp);
+        return newPic; //just so draft will compile. You will change it in the final
     }
 
 }

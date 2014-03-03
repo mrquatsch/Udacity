@@ -19,9 +19,9 @@ public class PictureManipulationDemo
         Picture flipped = PictureUtil.grayAndFlipLeftToRight(pic);
         flipped.translate(pic.getWidth() + SPACER, 0);
         flipped.draw();
-        /*Picture rotated =  PictureUtil.grayAndRotate90(pic);
+        Picture rotated =  PictureUtil.grayAndRotate90(pic);
         rotated.translate(2 * pic.getWidth() + 2 * SPACER, 0);
-        rotated.draw();*/
+        rotated.draw();
     }
 
 }

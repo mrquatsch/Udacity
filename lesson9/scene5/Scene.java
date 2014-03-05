@@ -27,6 +27,10 @@ public class Scene
             for (Drawable d : elements)
             {
                 // TODO: Move those elements that are moveable for 1 second each
+                if(d instanceof Moveable) {
+                    Moveable m = (Moveable) d;
+                    m.move(1);
+                }
             }
             Canvas.snapshot();
         }

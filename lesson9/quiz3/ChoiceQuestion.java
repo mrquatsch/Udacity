@@ -29,6 +29,9 @@ public class ChoiceQuestion extends Question
         // set the choice number (1, 2, 3, 4) as the answer.
         // Tip #1: What's choices.size()?
         // Tip #2: Use "" + n to change n to a string
+        if(correct) {
+            setAnswer("" + choices.size());
+        }
     }
 
     public void display()

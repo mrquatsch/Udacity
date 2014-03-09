@@ -18,35 +18,27 @@ public class Country implements Measurable, Comparable
         area = anArea;
     }
 
+    // YOUR CODE HERE
+    // Implement this method.
+    // Countries should be ordered from smallest area to largest.
+    // Return a negative number if this country is smaller than other.
+    // Return a positive number if this country is larger than other.
+    // Return 0 if the two countries are equal. Use .equals.
+    // I implemented .equals for you.
+    // If the countries are exactly the same size, break ties
+    // using the name of the country.
     public int compareTo(Object otherObject)
     {
-        Country otherCountry = (Country) otherObject;
-        if (this.equals(otherCountry))
-        {
-            return 0;
-        }
-        else if (this.area < otherCountry.area)
-        {
+        Country country = (Country)otherObject;
+        if(this.area < country.area) {
             return -1;
-        }
-        else if (this.area > otherCountry.area)
-        {
+        } else if(this.area > country.area) {
             return 1;
+        } else if (this.equals(country)) {
+            return 0;
+        } else {
+            return this.name.compareTo(country.name);
         }
-        else
-        {
-            return this.name.compareTo(otherCountry.name);
-        }
-
-        // YOUR CODE HERE
-        // Implement this method.
-        // Countries should be ordered from smallest area to largest.
-        // Return a negative number if this country is smaller than other.
-        // Return a positive number if this country is larger than other.
-        // Return 0 if the two countries are equal. Use .equals.
-        // I implemented .equals for you.
-        // If the countries are exactly the same size, break ties
-        // using the name of the country.
     }
 
     /**

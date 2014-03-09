@@ -7,6 +7,7 @@ import java.util.ArrayList;
 public class ChoiceQuestion extends Question
 {
     // TODO: Add an ArrayList<String> instance variable to hold the choices
+    private ArrayList<String> choices;
 
     /**
        Constructs a choice question with no choices.
@@ -14,6 +15,7 @@ public class ChoiceQuestion extends Question
     public ChoiceQuestion()
     {
         // TODO: Initialize the list of choices
+        choices = new ArrayList<String>();
     }
 
     /**
@@ -25,6 +27,7 @@ public class ChoiceQuestion extends Question
     {
         // TODO: Add choice to choices.
         // Ignore the "correct" parameter for now
+        choices.add(choice);
     }
 
     public void display()

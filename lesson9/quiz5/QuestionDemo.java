@@ -12,6 +12,12 @@ public class QuestionDemo
 
         // TODO: Set first to a Question that asks
         // who was the inventor of Java
+        ChoiceQuestion first = new ChoiceQuestion();
+        first.setText("In which country was the inventor of Java born?");
+        first.addChoice("Australia", false);
+        first.addChoice("Canada", true);
+        first.addChoice("Denmark", false);
+        first.addChoice("United States", false);
 
         ChoiceQuestion second = new ChoiceQuestion();
         second.setText("In which country was the inventor of Java born?");

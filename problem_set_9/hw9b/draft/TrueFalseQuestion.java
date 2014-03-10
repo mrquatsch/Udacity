@@ -19,9 +19,12 @@
 //For the draft, make the changes necessary to prepend the question submitted bu the user with
 //    Answer True or False:
 //
-public class TrueFalseQuestion
+public class TrueFalseQuestion extends Question
 {
    // TODO: for the draft, override the appropriate method(s) to present the question as specified
    // TODO: for the final, override the necessay  method(s) all valid answers as specified
-
+    public void display() {
+        System.out.print("Answer True or False: ");
+        super.display();
+    }
 }

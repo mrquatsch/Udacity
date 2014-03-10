@@ -9,5 +9,7 @@
 // For the draft, complete the GeometricSolid interface
 public interface GeometricSolid
 {
+    double getVolume();
 
+    double getSurfaceArea();
 }

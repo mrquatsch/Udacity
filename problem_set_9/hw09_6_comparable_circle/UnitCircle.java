@@ -9,7 +9,7 @@
  */
 // TODO: add everything necessary for this class to implement Comparable
 // HINT: There are two thing s you need to do
-public class UnitCircle
+public class UnitCircle implements Comparable<UnitCircle>
 {
    private int radius;
 
@@ -30,6 +30,16 @@ public class UnitCircle
 
 
    //... other methods
+    public int compareTo(UnitCircle c) {
+        if(this.getRadius() == c.getRadius()) {
+            return 0;
+        } else if(this.getRadius() < c.getRadius()) {
+            return -1;
+        } else {
+            return 1;
+        }
+
+    }
 
 
 }

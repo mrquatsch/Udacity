@@ -10,4 +10,11 @@ public class DataMethods
      */
 
       // TODO: implement the method described by this javadoc
+    public int getLength(Object c) {
+        if(c instanceof String) {
+            return ((String) c).length();
+        } else {
+            return -1;
+        }
+    }
 }

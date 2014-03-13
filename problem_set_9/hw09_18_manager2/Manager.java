@@ -19,7 +19,8 @@ public class Manager extends Employee
     public Manager(String name, double salary, double theBonus)
     {
         // TODO: complete the constructor
-
+        super(name, salary);
+        this.bonus = theBonus;
     }
 
     public double getBonus()
@@ -34,6 +35,7 @@ public class Manager extends Employee
     public double getSalary()
     {
         // TODO: finish the method implementation
+        return super.getSalary() + bonus;
 
     }
 }

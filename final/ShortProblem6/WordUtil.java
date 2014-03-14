@@ -21,14 +21,15 @@ public class WordUtil
    {
        String lower = text.toLowerCase();
        boolean found = false;
-       int i = 0;
 
        // TODO: complete the loop header
-       while (... )
+       while (!found)
        {
-           String letter = lower.substring(i, i +1);
            // TODO: complete the loop to determine if 
            // the lower contains x or z
+           if(lower.contains("x") || lower.contains("z")) {
+               found = true;
+           }
 
        }
        return found;

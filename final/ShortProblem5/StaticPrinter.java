@@ -20,7 +20,7 @@ public class StaticPrinter
         double cost = in.nextDouble();
         
         // TODO: call the static method getTip in the Finance class
-        double tip = ... 
+        double tip = Finance.getTip(cost);
         System.out.printf("\n%.2f",tip);
     }
 }

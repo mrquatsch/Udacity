@@ -28,6 +28,7 @@ public class Matrix
     public int numberOfColumns()
     {
         // TODO: get the number of columns
+        return matrix[0].length;
     }
 }
 

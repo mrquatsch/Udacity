@@ -25,6 +25,9 @@ public class Matrix
     public void setLast(int value)
     {
         //TODO: Set the value of the element in the last column of the last row to the parameter value
+        int rowID = matrix.length - 1;
+        int columnID = matrix[rowID].length - 1;
+        matrix[rowID][columnID] = value;
     }
 
     public int[] getLastRow()

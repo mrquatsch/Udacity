@@ -23,7 +23,7 @@ public class Matrix
      */
     public int numberOfRows()
     {
-
+        return matrix.length;
     }
 }
 

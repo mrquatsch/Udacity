@@ -57,8 +57,18 @@ public class DecayRunner
         // to two decimal points. You can use printf format specifier "%.2f\n"
         // Stop when the current mass is less than half the original mass of the substance
         // TODO:  print the number of years it takes to reach that mass
-
-
+        double initialMass = stuff.getMass();
+        boolean isHalf = false;
+        int years = 0;
+        while(!isHalf) {
+            stuff.decayOneYear();
+            years++;
+            System.out.printf("%.2f\n", stuff.getMass());
+            if(stuff.getMass() < (initialMass / 2)) {
+                isHalf = true;
+                System.out.println(years);
+            }
+        }
     }
 }
 

@@ -52,7 +52,18 @@ public class RectangleList
      */
     public Rectangle largestPerimeter()
     {
-
+        if(list.size() < 1) {
+            return null;
+        }
+        Rectangle largest = list.get(0);
+        for(Rectangle r : list) {
+            int rPerm = 2 * (r.getWidth() + r.getHeight());
+            int lPerm = (2 * (largest.getWidth() + largest.getHeight()));
+            if(rPerm > lPerm) {
+                largest = r;
+            }
+        }
+        return largest;
     }
 }
 

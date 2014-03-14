@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 // You are going to add a true/false type question to the question heirachy. Call it
 // TrueFalseQuestion
 //
@@ -27,4 +29,22 @@ public class TrueFalseQuestion extends Question
         System.out.print("Answer True or False: ");
         super.display();
     }
+
+    @Override
+    public void setAnswer(String correctResponse) {
+        super.setAnswer(correctResponse.toUpperCase());
+    }
+
+    @Override
+    public boolean checkAnswer(String response) {
+        response = response.toUpperCase();
+        if (response.equals("T") || response.equals("TRUE")) {
+            return super.checkAnswer(response = "TRUE");
+        } else if(response.equals("F") || response.equals("FALSE")) {
+            return super.checkAnswer(response = "FALSE");
+        } else {
+            return false;
+        }
+    }
 }
+

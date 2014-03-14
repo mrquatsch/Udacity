@@ -15,8 +15,8 @@ public class QuestionDemo
         
         Question second = new TrueFalseQuestion();
         second.setText("True or False: The original name for Java was Oak");
-        second.setAnswer("TRUE");
-        
+        second.setAnswer("true");
+
         presentQuestion(first, in);
         presentQuestion(second, in);
 
